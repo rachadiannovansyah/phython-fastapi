@@ -20,7 +20,7 @@ class Post(BaseModel):
 
 @app.get("/")
 def read_root():
-  return {"home": "Home page"}
+    return {"home": "Main Page"}
 
 @app.get("/blog")
 def get_posts():
